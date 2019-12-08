@@ -1,0 +1,1861 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description></description>
+    <groupId>7c84501d-d10c-407c-b9f3-1d80e38fe36a</groupId>
+    <name>daily_mail_tweet_report</name>
+    <snippet>
+        <processGroups>
+            <id>b97a06d7-7288-33e3-0000-000000000000</id>
+            <parentGroupId>46f95fe5-3024-31d8-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <comments></comments>
+            <contents>
+                <connections>
+                    <id>2b5d6d55-576f-361b-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>12df7a60-98b1-3a5a-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>bf45f4bd-f786-3321-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>35c86185-4c91-32a2-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>d391f8d8-d481-37ee-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>c05b7981-47d4-38c2-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>85d804d0-77fb-330e-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>6405db15-4ed1-36e0-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>d391f8d8-d481-37ee-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>9e90002c-ab11-357d-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>3a994452-8c7f-335b-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>6405db15-4ed1-36e0-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>b8d018da-6f73-3683-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>c05b7981-47d4-38c2-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>316b8ef9-75b1-3efa-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>cd66db24-0ee8-3e9d-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>d4be16e9-d7b5-3381-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>9c691ebf-f7ec-33d2-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>d8851913-cfe6-3a9b-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>69c594eb-db40-3f15-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>12df7a60-98b1-3a5a-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>ef936c9f-e135-3026-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>9c691ebf-f7ec-33d2-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>b97a06d7-7288-33e3-0000-000000000000</groupId>
+                        <id>69c594eb-db40-3f15-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <controllerServices>
+                    <id>211700f0-211f-37a7-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <bundle>
+                        <artifact>nifi-record-serialization-services-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <comments></comments>
+                    <descriptors>
+                        <entry>
+                            <key>Schema Write Strategy</key>
+                            <value>
+<name>Schema Write Strategy</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-access-strategy</key>
+                            <value>
+<name>schema-access-strategy</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-registry</key>
+                            <value>
+<identifiesControllerService>org.apache.nifi.schemaregistry.services.SchemaRegistry</identifiesControllerService>
+<name>schema-registry</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-name</key>
+                            <value>
+<name>schema-name</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-version</key>
+                            <value>
+<name>schema-version</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-branch</key>
+                            <value>
+<name>schema-branch</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-text</key>
+                            <value>
+<name>schema-text</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Date Format</key>
+                            <value>
+<name>Date Format</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Time Format</key>
+                            <value>
+<name>Time Format</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Timestamp Format</key>
+                            <value>
+<name>Timestamp Format</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>suppress_nulls</key>
+                            <value>
+<name>suppress_nulls</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>pretty_print_xml</key>
+                            <value>
+<name>pretty_print_xml</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>root_tag_name</key>
+                            <value>
+<name>root_tag_name</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>record_tag_name</key>
+                            <value>
+<name>record_tag_name</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>array_wrapping</key>
+                            <value>
+<name>array_wrapping</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>array_tag_name</key>
+                            <value>
+<name>array_tag_name</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Character Set</key>
+                            <value>
+<name>Character Set</name>
+                            </value>
+                        </entry>
+                    </descriptors>
+                    <name>XMLRecordSetWriter</name>
+                    <persistsState>false</persistsState>
+                    <properties>
+                        <entry>
+                            <key>Schema Write Strategy</key>
+                        </entry>
+                        <entry>
+                            <key>schema-access-strategy</key>
+                        </entry>
+                        <entry>
+                            <key>schema-registry</key>
+                        </entry>
+                        <entry>
+                            <key>schema-name</key>
+                        </entry>
+                        <entry>
+                            <key>schema-version</key>
+                        </entry>
+                        <entry>
+                            <key>schema-branch</key>
+                        </entry>
+                        <entry>
+                            <key>schema-text</key>
+                        </entry>
+                        <entry>
+                            <key>Date Format</key>
+                        </entry>
+                        <entry>
+                            <key>Time Format</key>
+                        </entry>
+                        <entry>
+                            <key>Timestamp Format</key>
+                        </entry>
+                        <entry>
+                            <key>suppress_nulls</key>
+                        </entry>
+                        <entry>
+                            <key>pretty_print_xml</key>
+                        </entry>
+                        <entry>
+                            <key>root_tag_name</key>
+                            <value>main</value>
+                        </entry>
+                        <entry>
+                            <key>record_tag_name</key>
+                        </entry>
+                        <entry>
+                            <key>array_wrapping</key>
+                        </entry>
+                        <entry>
+                            <key>array_tag_name</key>
+                        </entry>
+                        <entry>
+                            <key>Character Set</key>
+                        </entry>
+                    </properties>
+                    <state>ENABLED</state>
+                    <type>org.apache.nifi.xml.XMLRecordSetWriter</type>
+                </controllerServices>
+                <controllerServices>
+                    <id>f215c54d-15f9-3391-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <bundle>
+                        <artifact>nifi-hive-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <comments></comments>
+                    <descriptors>
+                        <entry>
+                            <key>hive-db-connect-url</key>
+                            <value>
+<name>hive-db-connect-url</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>hive-config-resources</key>
+                            <value>
+<name>hive-config-resources</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>hive-db-user</key>
+                            <value>
+<name>hive-db-user</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>hive-db-password</key>
+                            <value>
+<name>hive-db-password</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>hive-max-wait-time</key>
+                            <value>
+<name>hive-max-wait-time</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>hive-max-total-connections</key>
+                            <value>
+<name>hive-max-total-connections</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Validation-query</key>
+                            <value>
+<name>Validation-query</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>kerberos-credentials-service</key>
+                            <value>
+<identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+<name>kerberos-credentials-service</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Kerberos Principal</key>
+                            <value>
+<name>Kerberos Principal</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Kerberos Keytab</key>
+                            <value>
+<name>Kerberos Keytab</name>
+                            </value>
+                        </entry>
+                    </descriptors>
+                    <name>HiveConnectionPool</name>
+                    <persistsState>false</persistsState>
+                    <properties>
+                        <entry>
+                            <key>hive-db-connect-url</key>
+                            <value>jdbc:hive2://bigdatamaster01.iski.local:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2</value>
+                        </entry>
+                        <entry>
+                            <key>hive-config-resources</key>
+                            <value>/etc/hive/conf/hive-site.xml</value>
+                        </entry>
+                        <entry>
+                            <key>hive-db-user</key>
+                            <value>hive</value>
+                        </entry>
+                        <entry>
+                            <key>hive-db-password</key>
+                        </entry>
+                        <entry>
+                            <key>hive-max-wait-time</key>
+                            <value>1000 millis</value>
+                        </entry>
+                        <entry>
+                            <key>hive-max-total-connections</key>
+                            <value>8</value>
+                        </entry>
+                        <entry>
+                            <key>Validation-query</key>
+                        </entry>
+                        <entry>
+                            <key>kerberos-credentials-service</key>
+                        </entry>
+                        <entry>
+                            <key>Kerberos Principal</key>
+                        </entry>
+                        <entry>
+                            <key>Kerberos Keytab</key>
+                        </entry>
+                    </properties>
+                    <state>ENABLED</state>
+                    <type>org.apache.nifi.dbcp.hive.HiveConnectionPool</type>
+                </controllerServices>
+                <controllerServices>
+                    <id>fd94b5cb-8bd1-3649-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <bundle>
+                        <artifact>nifi-record-serialization-services-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <comments></comments>
+                    <descriptors>
+                        <entry>
+                            <key>schema-access-strategy</key>
+                            <value>
+<name>schema-access-strategy</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-registry</key>
+                            <value>
+<identifiesControllerService>org.apache.nifi.schemaregistry.services.SchemaRegistry</identifiesControllerService>
+<name>schema-registry</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-name</key>
+                            <value>
+<name>schema-name</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-version</key>
+                            <value>
+<name>schema-version</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-branch</key>
+                            <value>
+<name>schema-branch</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-text</key>
+                            <value>
+<name>schema-text</name>
+                            </value>
+                        </entry>
+                    </descriptors>
+                    <name>AvroReader</name>
+                    <persistsState>false</persistsState>
+                    <properties>
+                        <entry>
+                            <key>schema-access-strategy</key>
+                        </entry>
+                        <entry>
+                            <key>schema-registry</key>
+                        </entry>
+                        <entry>
+                            <key>schema-name</key>
+                        </entry>
+                        <entry>
+                            <key>schema-version</key>
+                        </entry>
+                        <entry>
+                            <key>schema-branch</key>
+                        </entry>
+                        <entry>
+                            <key>schema-text</key>
+                        </entry>
+                    </properties>
+                    <state>ENABLED</state>
+                    <type>org.apache.nifi.avro.AvroReader</type>
+                </controllerServices>
+                <processors>
+                    <id>12df7a60-98b1-3a5a-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1214.737818058256</x>
+                        <y>-250.1133971274461</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>record-reader</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.serialization.RecordReaderFactory</identifiesControllerService>
+    <name>record-reader</name>
+</value>
+                            </entry>
+                            <entry>
+<key>record-writer</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.serialization.RecordSetWriterFactory</identifiesControllerService>
+    <name>record-writer</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>record-reader</key>
+<value>fd94b5cb-8bd1-3649-0000-000000000000</value>
+                            </entry>
+                            <entry>
+<key>record-writer</key>
+<value>211700f0-211f-37a7-0000-000000000000</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>ConvertRecord</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.ConvertRecord</type>
+                </processors>
+                <processors>
+                    <id>316b8ef9-75b1-3efa-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>619.0948469466366</x>
+                        <y>75.12372246116979</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-hive-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Hive Database Connection Pooling Service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.dbcp.hive.HiveDBCPService</identifiesControllerService>
+    <name>Hive Database Connection Pooling Service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-pre-query</key>
+<value>
+    <name>hive-pre-query</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-query</key>
+<value>
+    <name>hive-query</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-post-query</key>
+<value>
+    <name>hive-post-query</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-fetch-size</key>
+<value>
+    <name>hive-fetch-size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-max-rows</key>
+<value>
+    <name>hive-max-rows</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-max-frags</key>
+<value>
+    <name>hive-max-frags</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-output-format</key>
+<value>
+    <name>hive-output-format</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-normalize-avro</key>
+<value>
+    <name>hive-normalize-avro</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-header</key>
+<value>
+    <name>csv-header</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-alt-header</key>
+<value>
+    <name>csv-alt-header</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-delimiter</key>
+<value>
+    <name>csv-delimiter</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-quote</key>
+<value>
+    <name>csv-quote</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-escape</key>
+<value>
+    <name>csv-escape</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-charset</key>
+<value>
+    <name>hive-charset</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>PRIMARY</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Hive Database Connection Pooling Service</key>
+<value>f215c54d-15f9-3391-0000-000000000000</value>
+                            </entry>
+                            <entry>
+<key>hive-pre-query</key>
+<value>SET hive.druid.broker.address.default=bigdatamaster02.iski.local:8082</value>
+                            </entry>
+                            <entry>
+<key>hive-query</key>
+<value>select handle as kullanici_adi,followers_count as kullanici_takipci_sayisi,message as tweet from testdb.iski_twitter_data where cast(to_date(from_unixtime(unix_timestamp(tarih, 'yyyyMMdd'))) as date)=date_sub(current_date(), 1) order by cast(kullanici_takipci_sayisi as int) desc</value>
+                            </entry>
+                            <entry>
+<key>hive-post-query</key>
+                            </entry>
+                            <entry>
+<key>hive-fetch-size</key>
+<value>0</value>
+                            </entry>
+                            <entry>
+<key>hive-max-rows</key>
+<value>0</value>
+                            </entry>
+                            <entry>
+<key>hive-max-frags</key>
+<value>0</value>
+                            </entry>
+                            <entry>
+<key>hive-output-format</key>
+<value>Avro</value>
+                            </entry>
+                            <entry>
+<key>hive-normalize-avro</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>csv-header</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>csv-alt-header</key>
+                            </entry>
+                            <entry>
+<key>csv-delimiter</key>
+<value>,</value>
+                            </entry>
+                            <entry>
+<key>csv-quote</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>csv-escape</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>hive-charset</key>
+<value>UTF-8</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 00 9 1/1 * ? *</schedulingPeriod>
+                        <schedulingStrategy>CRON_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>Onceki_gune_ait_tweet'ler</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.hive.SelectHiveQL</type>
+                </processors>
+                <processors>
+                    <id>3a994452-8c7f-335b-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>3053.759519798199</x>
+                        <y>56.69142952293737</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>SMTP Hostname</key>
+<value>
+    <name>SMTP Hostname</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Port</key>
+<value>
+    <name>SMTP Port</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Username</key>
+<value>
+    <name>SMTP Username</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Password</key>
+<value>
+    <name>SMTP Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Auth</key>
+<value>
+    <name>SMTP Auth</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP TLS</key>
+<value>
+    <name>SMTP TLS</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Socket Factory</key>
+<value>
+    <name>SMTP Socket Factory</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP X-Mailer Header</key>
+<value>
+    <name>SMTP X-Mailer Header</name>
+</value>
+                            </entry>
+                            <entry>
+<key>attribute-name-regex</key>
+<value>
+    <name>attribute-name-regex</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Content Type</key>
+<value>
+    <name>Content Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>From</key>
+<value>
+    <name>From</name>
+</value>
+                            </entry>
+                            <entry>
+<key>To</key>
+<value>
+    <name>To</name>
+</value>
+                            </entry>
+                            <entry>
+<key>CC</key>
+<value>
+    <name>CC</name>
+</value>
+                            </entry>
+                            <entry>
+<key>BCC</key>
+<value>
+    <name>BCC</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Subject</key>
+<value>
+    <name>Subject</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Message</key>
+<value>
+    <name>Message</name>
+</value>
+                            </entry>
+                            <entry>
+<key>email-ff-content-as-message</key>
+<value>
+    <name>email-ff-content-as-message</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Attach File</key>
+<value>
+    <name>Attach File</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Include All Attributes In Message</key>
+<value>
+    <name>Include All Attributes In Message</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>SMTP Hostname</key>
+<value>10.0.3.63</value>
+                            </entry>
+                            <entry>
+<key>SMTP Port</key>
+<value>25</value>
+                            </entry>
+                            <entry>
+<key>SMTP Username</key>
+                            </entry>
+                            <entry>
+<key>SMTP Password</key>
+                            </entry>
+                            <entry>
+<key>SMTP Auth</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>SMTP TLS</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>SMTP Socket Factory</key>
+<value>javax.net.ssl.SSLSocketFactory</value>
+                            </entry>
+                            <entry>
+<key>SMTP X-Mailer Header</key>
+<value>NiFi</value>
+                            </entry>
+                            <entry>
+<key>attribute-name-regex</key>
+                            </entry>
+                            <entry>
+<key>Content Type</key>
+<value>text/plain</value>
+                            </entry>
+                            <entry>
+<key>From</key>
+<value>nifi@iski.gov.tr</value>
+                            </entry>
+                            <entry>
+<key>To</key>
+                            </entry>
+                            <entry>
+<key>CC</key>
+                            </entry>
+                            <entry>
+<key>BCC</key>
+<value>sinan.bilgic@analythinx.com,busra.uyun@analythinx.com,mesibi@gmail.com,vdaglar@iski.istanbul,bsahin@iski.istanbul</value>
+                            </entry>
+                            <entry>
+<key>Subject</key>
+<value>Dün atılan tweet'ler</value>
+                            </entry>
+                            <entry>
+<key>Message</key>
+<value>Merhaba,
+
+Önceki güne ait İski ve İBB ile alakalı tweet'leri ekte bulabilirsiniz
+
+İyi çalışmalar.</value>
+                            </entry>
+                            <entry>
+<key>email-ff-content-as-message</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>Attach File</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>Include All Attributes In Message</key>
+<value>false</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutEmail</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.PutEmail</type>
+                </processors>
+                <processors>
+                    <id>6405db15-4ed1-36e0-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>2402.257534376001</x>
+                        <y>60.79712368945877</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-update-attribute-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Delete Attributes Expression</key>
+<value>
+    <name>Delete Attributes Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Store State</key>
+<value>
+    <name>Store State</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Stateful Variables Initial Value</key>
+<value>
+    <name>Stateful Variables Initial Value</name>
+</value>
+                            </entry>
+                            <entry>
+<key>filename</key>
+<value>
+    <name>filename</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Delete Attributes Expression</key>
+                            </entry>
+                            <entry>
+<key>Store State</key>
+<value>Do not store state</value>
+                            </entry>
+                            <entry>
+<key>Stateful Variables Initial Value</key>
+                            </entry>
+                            <entry>
+<key>filename</key>
+<value>iski_tweet_${now():toNumber():minus(86400000):format('dd-MM-yyyy'):toString()}.html</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>UpdateAttribute</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+                </processors>
+                <processors>
+                    <id>69c594eb-db40-3f15-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1857.4370054719657</x>
+                        <y>-246.59918062989811</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>XSLT file name</key>
+<value>
+    <name>XSLT file name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>indent-output</key>
+<value>
+    <name>indent-output</name>
+</value>
+                            </entry>
+                            <entry>
+<key>secure-processing</key>
+<value>
+    <name>secure-processing</name>
+</value>
+                            </entry>
+                            <entry>
+<key>cache-size</key>
+<value>
+    <name>cache-size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>cache-ttl-after-last-access</key>
+<value>
+    <name>cache-ttl-after-last-access</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>PRIMARY</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>XSLT file name</key>
+<value>/home/nifi/xslt_files/xml_to_html_tweet_count.xslt</value>
+                            </entry>
+                            <entry>
+<key>indent-output</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>secure-processing</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>cache-size</key>
+<value>10</value>
+                            </entry>
+                            <entry>
+<key>cache-ttl-after-last-access</key>
+<value>60 secs</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>TransformXml</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.TransformXml</type>
+                </processors>
+                <processors>
+                    <id>9c691ebf-f7ec-33d2-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>2421.3917812021728</x>
+                        <y>-240.38618014354904</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-update-attribute-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Delete Attributes Expression</key>
+<value>
+    <name>Delete Attributes Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Store State</key>
+<value>
+    <name>Store State</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Stateful Variables Initial Value</key>
+<value>
+    <name>Stateful Variables Initial Value</name>
+</value>
+                            </entry>
+                            <entry>
+<key>filename</key>
+<value>
+    <name>filename</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Delete Attributes Expression</key>
+                            </entry>
+                            <entry>
+<key>Store State</key>
+<value>Do not store state</value>
+                            </entry>
+                            <entry>
+<key>Stateful Variables Initial Value</key>
+                            </entry>
+                            <entry>
+<key>filename</key>
+<value>gunluk_tweet_sayisi_${now():toNumber():format('dd-MM-yyyy'):toString()}.html</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>UpdateAttribute</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+                </processors>
+                <processors>
+                    <id>bf45f4bd-f786-3321-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>620.0297148055233</x>
+                        <y>-248.37265262275355</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-hive-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Hive Database Connection Pooling Service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.dbcp.hive.HiveDBCPService</identifiesControllerService>
+    <name>Hive Database Connection Pooling Service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-pre-query</key>
+<value>
+    <name>hive-pre-query</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-query</key>
+<value>
+    <name>hive-query</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-post-query</key>
+<value>
+    <name>hive-post-query</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-fetch-size</key>
+<value>
+    <name>hive-fetch-size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-max-rows</key>
+<value>
+    <name>hive-max-rows</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-max-frags</key>
+<value>
+    <name>hive-max-frags</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-output-format</key>
+<value>
+    <name>hive-output-format</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-normalize-avro</key>
+<value>
+    <name>hive-normalize-avro</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-header</key>
+<value>
+    <name>csv-header</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-alt-header</key>
+<value>
+    <name>csv-alt-header</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-delimiter</key>
+<value>
+    <name>csv-delimiter</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-quote</key>
+<value>
+    <name>csv-quote</name>
+</value>
+                            </entry>
+                            <entry>
+<key>csv-escape</key>
+<value>
+    <name>csv-escape</name>
+</value>
+                            </entry>
+                            <entry>
+<key>hive-charset</key>
+<value>
+    <name>hive-charset</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>PRIMARY</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Hive Database Connection Pooling Service</key>
+<value>f215c54d-15f9-3391-0000-000000000000</value>
+                            </entry>
+                            <entry>
+<key>hive-pre-query</key>
+                            </entry>
+                            <entry>
+<key>hive-query</key>
+<value>select tarih as tweet_atilma_tarihi,count(*) as tweet_sayisi from testdb.iski_twitter_data where cast(to_date(from_unixtime(unix_timestamp(tarih, 'yyyyMMdd'))) as date)&gt;date_sub(current_date(), 10) group by tarih</value>
+                            </entry>
+                            <entry>
+<key>hive-post-query</key>
+                            </entry>
+                            <entry>
+<key>hive-fetch-size</key>
+<value>0</value>
+                            </entry>
+                            <entry>
+<key>hive-max-rows</key>
+<value>0</value>
+                            </entry>
+                            <entry>
+<key>hive-max-frags</key>
+<value>0</value>
+                            </entry>
+                            <entry>
+<key>hive-output-format</key>
+<value>Avro</value>
+                            </entry>
+                            <entry>
+<key>hive-normalize-avro</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>csv-header</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>csv-alt-header</key>
+                            </entry>
+                            <entry>
+<key>csv-delimiter</key>
+<value>,</value>
+                            </entry>
+                            <entry>
+<key>csv-quote</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>csv-escape</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>hive-charset</key>
+<value>UTF-8</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 50 8 1/1 * ? *</schedulingPeriod>
+                        <schedulingStrategy>CRON_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>gunluk_tweet_sayisi</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.hive.SelectHiveQL</type>
+                </processors>
+                <processors>
+                    <id>c05b7981-47d4-38c2-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1234.8288519938028</x>
+                        <y>71.48174905175313</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>record-reader</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.serialization.RecordReaderFactory</identifiesControllerService>
+    <name>record-reader</name>
+</value>
+                            </entry>
+                            <entry>
+<key>record-writer</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.serialization.RecordSetWriterFactory</identifiesControllerService>
+    <name>record-writer</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>record-reader</key>
+<value>fd94b5cb-8bd1-3649-0000-000000000000</value>
+                            </entry>
+                            <entry>
+<key>record-writer</key>
+<value>211700f0-211f-37a7-0000-000000000000</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>ConvertRecord</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.ConvertRecord</type>
+                </processors>
+                <processors>
+                    <id>d391f8d8-d481-37ee-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1807.4169554231376</x>
+                        <y>60.8762374609222</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>XSLT file name</key>
+<value>
+    <name>XSLT file name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>indent-output</key>
+<value>
+    <name>indent-output</name>
+</value>
+                            </entry>
+                            <entry>
+<key>secure-processing</key>
+<value>
+    <name>secure-processing</name>
+</value>
+                            </entry>
+                            <entry>
+<key>cache-size</key>
+<value>
+    <name>cache-size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>cache-ttl-after-last-access</key>
+<value>
+    <name>cache-ttl-after-last-access</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>PRIMARY</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>XSLT file name</key>
+<value>/home/nifi/xslt_files/xml_to_html.xslt</value>
+                            </entry>
+                            <entry>
+<key>indent-output</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>secure-processing</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>cache-size</key>
+<value>10</value>
+                            </entry>
+                            <entry>
+<key>cache-ttl-after-last-access</key>
+<value>60 secs</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>TransformXml</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.TransformXml</type>
+                </processors>
+                <processors>
+                    <id>d4be16e9-d7b5-3381-0000-000000000000</id>
+                    <parentGroupId>b97a06d7-7288-33e3-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>3053.7076704329647</x>
+                        <y>-242.77347430854456</y>
+                    </position>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.7.0.3.2.0.0-520</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>SMTP Hostname</key>
+<value>
+    <name>SMTP Hostname</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Port</key>
+<value>
+    <name>SMTP Port</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Username</key>
+<value>
+    <name>SMTP Username</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Password</key>
+<value>
+    <name>SMTP Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Auth</key>
+<value>
+    <name>SMTP Auth</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP TLS</key>
+<value>
+    <name>SMTP TLS</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP Socket Factory</key>
+<value>
+    <name>SMTP Socket Factory</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SMTP X-Mailer Header</key>
+<value>
+    <name>SMTP X-Mailer Header</name>
+</value>
+                            </entry>
+                            <entry>
+<key>attribute-name-regex</key>
+<value>
+    <name>attribute-name-regex</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Content Type</key>
+<value>
+    <name>Content Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>From</key>
+<value>
+    <name>From</name>
+</value>
+                            </entry>
+                            <entry>
+<key>To</key>
+<value>
+    <name>To</name>
+</value>
+                            </entry>
+                            <entry>
+<key>CC</key>
+<value>
+    <name>CC</name>
+</value>
+                            </entry>
+                            <entry>
+<key>BCC</key>
+<value>
+    <name>BCC</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Subject</key>
+<value>
+    <name>Subject</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Message</key>
+<value>
+    <name>Message</name>
+</value>
+                            </entry>
+                            <entry>
+<key>email-ff-content-as-message</key>
+<value>
+    <name>email-ff-content-as-message</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Attach File</key>
+<value>
+    <name>Attach File</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Include All Attributes In Message</key>
+<value>
+    <name>Include All Attributes In Message</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>SMTP Hostname</key>
+<value>10.0.3.63</value>
+                            </entry>
+                            <entry>
+<key>SMTP Port</key>
+<value>25</value>
+                            </entry>
+                            <entry>
+<key>SMTP Username</key>
+                            </entry>
+                            <entry>
+<key>SMTP Password</key>
+                            </entry>
+                            <entry>
+<key>SMTP Auth</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>SMTP TLS</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>SMTP Socket Factory</key>
+<value>javax.net.ssl.SSLSocketFactory</value>
+                            </entry>
+                            <entry>
+<key>SMTP X-Mailer Header</key>
+<value>NiFi</value>
+                            </entry>
+                            <entry>
+<key>attribute-name-regex</key>
+                            </entry>
+                            <entry>
+<key>Content Type</key>
+<value>text/plain</value>
+                            </entry>
+                            <entry>
+<key>From</key>
+<value>nifi@iski.gov.tr</value>
+                            </entry>
+                            <entry>
+<key>To</key>
+                            </entry>
+                            <entry>
+<key>CC</key>
+                            </entry>
+                            <entry>
+<key>BCC</key>
+<value>sinan.bilgic@analythinx.com,busra.uyun@analythinx.com,mesibi@gmail.com,vdaglar@iski.istanbul,bsahin@iski.istanbul</value>
+                            </entry>
+                            <entry>
+<key>Subject</key>
+<value>Son 10 Güne Ait Tweet Sayıları</value>
+                            </entry>
+                            <entry>
+<key>Message</key>
+<value>Merhaba,
+
+Son on güne ait içinde "iski" kelimesi geçen tweetlerin sayılarını ekte bulabilirsiniz.
+
+Ayrıca aşağıdaki link üzerinde günlük tweet sayısının grafiğine ulaşabilirsiniz:
+
+http://bigdatamaster03.iski.local:9088/superset/dashboard/tweetcount/?preselect_filters=%7B%7D
+
+İyi çalışmalar.</value>
+                            </entry>
+                            <entry>
+<key>email-ff-content-as-message</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>Attach File</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>Include All Attributes In Message</key>
+<value>false</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutEmail</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.PutEmail</type>
+                </processors>
+            </contents>
+            <name>Daily_mail_tweet_reports</name>
+            <variables/>
+        </processGroups>
+    </snippet>
+    <timestamp>09/24/2019 10:23:57 EEST</timestamp>
+</template>
